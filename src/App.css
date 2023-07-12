@@ -2,20 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 7vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +14,84 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  /* flex-direction: column; */
+}
+.form_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  /* flex-direction: column; */
+}
+.form_2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  /* flex-direction: column; */
+}
+.form_3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  /* flex-direction: column; */
+}
+.form_4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  /* flex-direction: column; */
+}
+input{
+  border: 1px solid grey;
+  width: 6.5rem;
+  height: 2rem;
+  transition: .2 ease-in;
+}
+input:hover{
+  border: 2px solid rgb(16, 16, 232);
+}
+label{
+  font-size: small;
+}
+.length-section,.width-section,.height-section,.quantity-section,.weight-section,.name-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Next{
+  width: 3rem;
+  height: 2rem;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+#Next:hover{
+  background-color: rgb(16, 16, 232);
+  color: white;
+}
+.container-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.info{
+  text-align: left;
 }
